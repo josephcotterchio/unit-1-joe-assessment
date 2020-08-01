@@ -1,0 +1,40 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+  main {
+    justify-content: center;
+  }
+
+  section {
+    margin-top: 400px;
+    display: flex;  
+    justify-content: center;
+  }
+  
+  #answer {
+      margin-bottom: -300px;
+      font-weight: bold;
+      font-size: 20px;
+      justify-content: center;
+
+  }
+  #input {
+      text-align: center;
+  }
+  @media (hover: hover) {
+    .plus:hover {
+      background: black;
+      color: lightgray;
+    }
+    .minus:hover {
+      background: black;
+      color: lightgray;
+    }
+  }
+
+
+
